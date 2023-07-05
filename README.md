@@ -18,3 +18,9 @@ Amplify.configure({
     },
 });
 
+
+
+
+async function federatedSignIn(provider) {
+    return await Auth.federatedSignIn({ provider });
+}
